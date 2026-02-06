@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavli Gupta | Professional Academic Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Crimson+Pro:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --iit-blue: #002147;
+            --accent: #0056b3;
+            --gold: #ffd700;
+            --bg-light: #f4f7f6;
+            --streak: #e67e22;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #cbd5e0;
+            padding: 40px 20px;
+            color: #333;
+        }
+
+        .resume-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #fff;
+            display: flex;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            border-radius: 12px;
+            overflow: hidden;
+            border-top: 10px solid var(--iit-blue);
+        }
+
+        /* SIDEBAR SECTION */
+        aside {
+            width: 330px;
+            background-color: var(--iit-blue);
+            color: #fff;
+            padding: 40px 30px;
+        }
+
+        .profile-header h1 {
+            font-family: 'Crimson Pro', serif;
+            font-size: 2.5rem;
+            color: var(--gold);
+            line-height: 1;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .profile-header p { font-size: 0.85rem; opacity: 0.9; margin-bottom: 30px; line-height: 1.4; }
+
+        .sidebar-section { margin-bottom: 30px; }
+        .sidebar-section h3 {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 15px;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            padding-bottom: 5px;
+        }
+
+        .contact-link {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            background: rgba(255,255,255,0.1);
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            transition: 0.3s;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .contact-link:hover { background: var(--accent); transform: translateX(5px); }
+
+        .tag {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            padding: 4px 10px;
+            margin: 3px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+        }
+
+        .streak-fire {
+            background: linear-gradient(90deg, #ff8c00, #ed1c24);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 700;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* MAIN CONTENT SECTION */
+        main { flex: 1; padding: 45px; background: #fff; }
+
+        section { margin-bottom: 30px; }
+
+        .section-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--iit-blue);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 5px;
+        }
+
+        .summary-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-left: 6px solid var(--iit-blue);
+            border-radius: 4px;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .highlight { color: var(--accent); font-weight: 700; }
+
+        .content-card {
+            border: 1px solid #edf2f7;
+            padding: 18px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 5px;
+        }
+
+        .badge {
+            background: var(--bg-light);
+            color: var(--iit-blue);
+            padding: 2px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            border: 1px solid #ddd;
+        }
+
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; font-size: 0.9rem; color: #4a5568; }
+
+        @media print {
+            body { padding: 0; background: white; }
+            .resume-container { box-shadow: none; border: none; width: 100%; border-radius: 0; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-container">
+    <aside>
+        <div class="profile-header">
+            <h1>LAVLI GUPTA</h1>
+            <p>IIT Delhi Campus Ambassador '26<br>Dual-Degree IT & Data Science Scholar</p>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Contact Details</h3>
+            <a href="mailto:Lovelygupta967545@gmail.com" class="contact-link">✉️ Lovelygupta967545@gmail.com</a>
+            <a href="https://www.linkedin.com/in/lovely-gupta-0a914432b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="contact-link">🔗 LinkedIn Profile</a>
+            <a href="https://github.com/LovelyGupta967545" target="_blank" class="contact-link">💻 GitHub Portfolio</a>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Technical Tools</h3>
+            <div class="tag">MS Excel</div>
+            <div class="tag">Git / GitHub</div>
+            <div class="tag">VS Code</div>
+            <div class="tag">Basic Electronics</div>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Languages</h3>
+            <div class="tag">English</div>
+            <div class="tag">Hindi</div>
+            <div class="tag">Japanese (Basic)</div>
+        </div>
+
+        <div class="streak-fire">🔥 30-Day LeetCode Streak</div>
+    </aside>
+
+    <main>
+        <section>
+            <div class="section-title">Professional Summary</div>
+            <div class="summary-card">
+                <b>Dual-Degree Professional</b> pursuing B.Tech in <b>Information Technology</b> (AKTU) and B.S. in <b>Data Science</b> (IIT Madras). 
+                Elected as <span class="highlight">IIT Delhi Campus Ambassador (2026)</span>. 
+                Proven academic turnaround with a CGPA increase from <b>7.68 to 8.3</b>. 
+                Expertise in <b>Discrete Mathematics</b> and Core IT Engineering. 
+                Active community leader, notably organizing the <b>IIT Madras Meet-up at Aligarh (AMU)</b>.
+            </div>
+        </section>
+
+        <section>
+            <div class="section-header section-title">Leadership & Outreach</div>
+            <div class="content-card">
+                <div class="card-header">
+                    <span>Campus Ambassador | IIT Delhi</span>
+                    <span class="badge">2026 Batch</span>
+                </div>
+                <ul>
+                    <li>Official representative for <b>IIT Delhi's technical ecosystem</b>.</li>
+                    <li>Organized the first <b>IIT Madras Meet-up in Aligarh (AMU)</b> to bridge the gap between 100+ students and technical scholars.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-title">Education Timeline</div>
+            <div class="content-card" style="background: #f0f7ff; border-left: 5px solid var(--accent);">
+                <div class="card-header">
+                    <span>IIT Madras (IITM)</span>
+                    <span class="badge">Feb 2026 Diploma</span>
+                </div>
+                <p>B.S. in Data Science & Applications | <span class="highlight">Foundation Completed</span></p>
+            </div>
+
+            <div class="content-card">
+                <div class="card-header">
+                    <span>Vivekanand College (AKTU), Aligarh</span>
+                    <span class="badge">CGPA: 8.3</span>
+                </div>
+                <p>B.Tech in Information Technology (IT) | <span class="highlight">Batch 2024 - 2028</span></p>
+            </div>
+
+            <div class="content-card">
+                <div class="card-header">
+                    <span>Gap Year / JEE Preparation</span>
+                    <span class="badge">2023 - 2024</span>
+                </div>
+                <p>Dedicated year for <span class="highlight">JEE Competitive Examination Preparation</span>.</p>
+            </div>
+
+            <div class="content-card">
+                <div class="card-header">
+                    <span>Class 12th (U.P. Board)</span>
+                    <span class="badge">74%</span>
+                </div>
+                <p>Teekaram Girls Inter College, Aligarh — <span class="highlight">Year: 2023</span></p>
+            </div>
+
+            <div class="content-card">
+                <div class="card-header">
+                    <span>Class 10th (U.P. Board)</span>
+                    <span class="badge">78%</span>
+                </div>
+                <p>Adarsh Babu Inter College, Kamandalpur Gonda — <span class="highlight">Year: 2021</span></p>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-title">Technical Skill-Set</div>
+            <div class="content-card">
+                <ul>
+                    <li><b>Programming:</b> Python (Advanced DSA), Java, C, SQL</li>
+                    <li><b>Web Development:</b> HTML5, CSS3, JavaScript</li>
+                    <li><b>Engineering Core:</b> <span class="highlight">Discrete Mathematics</span>, COA, DBMS, ML Basics</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-title">Academic Projects</div>
+            <div class="content-card">
+                <b>Mega Project: AKTU Student Dashboard</b>
+                <p style="font-size: 0.85rem; margin-top: 5px;">Automated portal for university result tracking using Python & SQL.</p>
+            </div>
+            <div class="content-card">
+                <b>Instagram Trend Predictor</b>
+                <p style="font-size: 0.85rem; margin-top: 5px;">Data-driven ML tool to analyze trends.</p>
+            </div>
+            <div class="content-card">
+                <b>Core Utility Projects (Python)</b>
+                <p style="font-size: 0.85rem; margin-top: 5px;">• Password Creator • Hangman Game • To-Do List Application</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-title">Honors & Achievements</div>
+            <ul>
+                <li><b>🥈 Silver Medalist (Kho-Kho):</b> Won at Paradox Fest, <b>IIT Madras</b>.</li>
+                <li><b>30-Day LeetCode Streak:</b> Consistency in Python problem solving.</li>
+                <li><b>Academic Growth:</b> Consistent upward trend to <b>8.3 CGPA</b>.</li>
+            </ul>
+        </section>
+    </main>
+</div>
+
+</body>
+</html>
